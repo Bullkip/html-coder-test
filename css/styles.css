@@ -1,0 +1,19 @@
+body {
+  background: white;
+  color: #323232;
+  font-family: Helvetica neue, roboto;
+}
+
+.custom-select {
+  display: none;
+}
+
+.selects-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-select,
+.custom-select {
+  min-width: 130px;
+}
